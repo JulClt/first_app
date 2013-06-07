@@ -9,7 +9,7 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-# gem 'pg'
+gem 'pg', :group => :production
 
 gem 'json'
 
